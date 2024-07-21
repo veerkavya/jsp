@@ -1,0 +1,255 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23-May-2023, 9:06:41 pm
+    Author     : Admin
+*/
+.c{
+    background-color: grey;
+    margin-top:6rem;
+    width:70%;
+    margin:auto;
+    margin-top:3rem;
+   
+}
+.s{
+    color:black;
+}
+.box255{
+    width:60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px; 
+    height:50%;
+    margin:auto;
+    margin-top:5rem;
+    border-radius:1rem;
+}
+.head255{
+    width:70%;
+    margin:auto;
+    margin-top:3rem;
+}
+h1,h5{
+    text-align:center;
+}
+
+table{
+   
+    margin:auto;
+    width:70%;
+    height:10%;
+    border:solid grey 0.5px;
+}
+th{
+    
+}
+.search{
+    margin-top:2rem;
+}
+select{
+    border:none;
+    
+}
+th{
+    border-left:solid grey 0.5px;
+}
+.e{
+    background:#ed9121;
+    border:none;
+    border-left:solid grey 0.5px;
+    border-right:solid #ed9121 0.5px;
+     border-top:solid #ed9121 0.5px;
+      border-bottom:solid #ed9121 0.5px;
+}
+.sub255{
+    color:white;
+    border:none;
+    background:none;
+    width:100%;
+}
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+.theme {
+  display: flex;
+  padding: 0 35px;
+
+  justify-content: center;
+  min-height:60vh;
+  
+}
+.theme-cont{
+    margin-top:4rem;
+}
+h3{
+    text-align: center;
+}
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+  
+}
+.theme{
+  background-color:white;  
+}
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -39px;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.carousel .card .img {
+  height: 100%;
+  width: 100%;
+ 
+}
+a{
+    height:95%;
+ 
+}
+.img{
+   height:95%;
+    
+}
+.card .img img {
+  width: 100%;
+  height: 100%;
+      
+  object-fit: cover;
+
+}
+.carousel .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+}
+#mybutton{
+    display:none;
+}
+.carousel .card span {
+  color: #6A6D78;
+  font-size: 1.31rem;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+#left{
+    margin-right:2px;
+}
+.c2{
+    color:green;
+}
+.n{
+    display:flex;
+    justify-content: space-between;
+}
+h7{
+    color:grey;
+    margin-left:6rem;
+}
+.info{
+    margin-top:1rem;
+}
+p,s{
+    display:flex;
+    justify-content:space-between;
+    width:50%;
+}
+li {
+    padding: -1em;
+}
+
+.themebtn{
+   
+    border:solid red 2px;
+}
+.f{
+    width:100%;
+    height:100%;
+}
+.p{
+    width:50%;
+}
+
+.hc{
+    color:green;
+}
+
+.icon{
+    height:100px;
+    width:100px;
+    border-radius:100%;
+    
+}
+.aa{
+    text-align: center;
+}
